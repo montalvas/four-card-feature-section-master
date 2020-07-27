@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    background-color: hsl(0, 0%, 98%);
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 36px;
+    color: hsl(234, 12%, 34%);
+}
+
+header h1:first-of-type{
+    font-weight: 200;  
+}
+
+header h1:last-of-type{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+header p{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* CARDS */
+
+.cards{
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    padding-bottom: 50px;
+}
+
+.cards .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cyan, .red, .orange, .blue{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: -1px 3px 1px 0px hsl(229, 6%, 66%);
+    -webkit-box-shadow: 0px 1px 3px 1px hsl(229, 6%, 66%);
+    -moz-box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.cyan{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    background-image: url(../images/icon-supervisor.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+}
+
+.red{
+    border-top: 3px solid hsl(0, 78%, 62%);
+    background-image: url(../images/icon-team-builder.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+}
+
+.orange{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    background-image: url(../images/icon-karma.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+}
+
+.blue{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    background-image: url(../images/icon-calculator.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+}
+
+.cards h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cards p{
+    font-size: 11px;
+    padding-top: 15px;
+}
