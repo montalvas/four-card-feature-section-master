@@ -132,6 +132,13 @@ footer{
 
 /* RESPONSIVIDADE */
 
+@media screen and (max-width: 1024px){
+
+    .cards .container{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 540px){
 
     header h1{
